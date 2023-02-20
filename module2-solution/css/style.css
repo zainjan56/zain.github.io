@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+    margin: 50px;
+  }
+  
+  p {
+    position: relative;
+    clear: right;
+  }
+  
+  section {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .dives {
+    position: relative;
+    background-color: gray;
+    width: 100%;
+     border: 2px solid black;
+     height: 220px;
+  }
+  
+  .first {
+    font-weight: bold;
+    background-color: rgb(200, 120, 120);
+    display: block;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 100px;
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .second {
+    font-weight: bold;
+    background-color: maroon;
+    display: block;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 110px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+  }
+  
+  .third {
+    font-weight: bold;
+    background-color: rgb(223, 212, 121);
+    display: block;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 110px;
+    text-align: center;
+    font-size: 23px;
+  }
+  
+  .sub {
+    padding: 10px;
+    float: right;
+    margin: 0px;
+    width: 150px;
+  }
+  
+  .text {
+    display: block;
+    padding: 5px;
+    clear: right;
+    margin: 0px;
+    overflow: auto;
+    height: 240px;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 992px) {
+    .column-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+      float: left;
+      width: 50%;
+    }
+  
+    .colmn-md-12 {
+      float: left;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .colmn-sm-12 {
+      float: left;
+      width: 100%;
+    }
+  }
